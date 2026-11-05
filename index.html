@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página personal de Daniela Barco, estudiante de Sistemas de Información.">
+  <title>Daniela Barco | Mi página personal</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <div class="hero-inner">
+      <p class="eyebrow">MI ESPACIO PERSONAL</p>
+      <h1>Daniela Barco</h1>
+      <p class="welcome">Bienvenidos a mi página personal</p>
+    </div>
+  </header>
+
+  <nav class="menu" aria-label="Menú principal">
+    <a href="#biografia">Biografía</a>
+    <a href="#fotos">Fotos</a>
+    <a href="#musica">Música</a>
+    <a href="#video">Video</a>
+  </nav>
+
+  <main>
+    <section class="bio card" id="biografia">
+      <div class="bio-copy">
+        <p class="eyebrow blue">SOBRE MÍ</p>
+        <h2>Biografía</h2>
+        <img class="bio-inline-photo" src="imagenes/daniela.jpg" alt="Fotografía de Daniela Barco">
+        <p>Mi nombre es <strong>Daniela Barco</strong> y soy estudiante de la carrera de <strong>Sistemas de Información</strong> en la UTB. Me considero una persona alegre, con ganas de aprender cosas nuevas, superar retos y seguir creciendo tanto en lo personal como en lo académico.</p>
+        <p>Elegí esta carrera porque me interesa la tecnología y cómo los sistemas informáticos ayudan a resolver problemas. Quiero aprender sobre programación, desarrollo web y manejo de información para prepararme y tener un buen futuro profesional.</p>
+        <p>En mi tiempo libre disfruto escuchar música y compartir buenos momentos con mi familia y amigos.</p>
+      </div>
+    </section>
+
+    <section class="photos-section" id="fotos">
+      <article class="card photo-card">
+        <h2>Mi fotografía</h2>
+        <img class="main-photo" src="imagenes/daniela.jpg" alt="Daniela Barco">
+      </article>
+    </section>
+
+    <section class="music-section" id="musica">
+      <article class="card music-card">
+        <h2>Mi música favorita</h2>
+        <p>Disfruta de este mix de <strong>CNCO – Deja Vu</strong>.</p>
+        <div class="audio-wrap">
+          <audio controls preload="metadata">
+            <source src="musica/mix-cnco-deja-vu.m4a" type="audio/mp4">
+            Tu navegador no puede reproducir este audio.
+          </audio>
+        </div>
+        <p class="muted small">Reproduce el mix directamente desde esta página.</p>
+      </article>
+    </section>
+
+    <section class="video-section" id="video">
+      <article class="card video-card">
+        <h2>Mi video</h2>
+        <p>En este video comparto mi presentación personal.</p>
+        <video controls playsinline preload="metadata" poster="imagenes/daniela.jpg">
+          <source src="video/presentacion.mp4" type="video/mp4">
+          Tu navegador no puede reproducir este video.
+        </video>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Escríbeme</h2>
+    <p class="email"><a href="mailto:dnbarcos@fafi.utb.edu.ec">dnbarcos@fafi.utb.edu.ec</a></p>
+    <p>Mi página personal</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,1 @@
+PAGINA PERSONAL - DANIELA BARCO\n\nAbre el archivo index.html en tu navegador.\nPara publicarlo en GitHub Pages, sube index.html, estilos.css y las carpetas imagenes, video y musica manteniendo esta estructura.\n
